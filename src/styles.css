@@ -70,6 +70,33 @@ main{
     margin-top: 15px;
     font-size: 28px;
 }
+.weather-focast{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.weather-focast-date{
+    text-align: center;
+    color: rgba(39, 33,66,0.4);
+    line-height: 28px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.weather-focast-icon{
+    font-size: 37px;
+    text-align: center;
+
+}
+.weather-focast-temperatures{
+    text-align: center;
+    color:rgb(212, 120, 135) ;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.weather-focast-temperature{
+    padding: 0 10px;
+}
 
 footer{
     border-top: 1ps solid aliceblue;
