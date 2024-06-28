@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css">
     <title>Document</title>
 </head>
@@ -17,7 +18,7 @@
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city" id="city">London</h1>
+        <h1 class="weather-app-city" id="city"></h1>
         <p class="weather-app-details">
             Friday 11:28, scattered clouds
             <br />
@@ -26,7 +27,7 @@
         </div>
         <div class="weather-app-temperature-container">
             <div class="weather-app-icon">🌤️</div>
-            <div class="weather-app-temperature">18</div>
+            <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-unit">°C</div>
          
         </div>
