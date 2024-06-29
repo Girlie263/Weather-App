@@ -70,31 +70,31 @@ main{
     margin-top: 15px;
     font-size: 28px;
 }
-.weather-focast{
+.weather-forecast{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
-.weather-focast-date{
+.weather-forecast-date{
     text-align: center;
     color: rgba(39, 33,66,0.4);
     line-height: 28px;
     font-size: 17px;
     margin-bottom: 10px;
 }
-.weather-focast-icon{
+.weather-forecast-icon{
     font-size: 37px;
     text-align: center;
 
 }
-.weather-focast-temperatures{
+.weather-forecast-temperatures{
     text-align: center;
     color:rgb(212, 120, 135) ;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.weather-focast-temperature{
+.weather-forecast-temperature{
     padding: 0 10px;
 }
 
